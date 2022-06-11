@@ -1,0 +1,42 @@
+.body-content {
+    background-image: url("bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    background-image: url("puppy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.title {
+    color: #574234;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: cursive !important;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #574234;
+    padding-left: 35px;
+    font-family: monospace;
+    margin-top: 30px;
+}
+.contact {
+    float: right;
+    color: #574234;
+}
+whatsapp {
+    font-size: 20px;
+}
+mail {
+    font-size: 20px;
+}
